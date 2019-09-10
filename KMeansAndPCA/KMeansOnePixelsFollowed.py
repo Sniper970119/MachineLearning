@@ -58,11 +58,15 @@ print(A.shape)
 plt.imshow(A)
 plt.show()
 # Divide by 255 so that all values are in the range 0 - 1
+# 除以255，使所有值都在0 - 1范围内
 A = A / 255.
 
 #  Reshape the image into an (N,3) matrix where N = number of pixels.
 #  Each row will contain the Red, Green and Blue pixel values
 #  This gives us our dataset matrix X that we will use K-Means on.
+
+# 将图像重塑为(N,3)矩阵，其中N =像素数。每一行将包含红，绿和蓝像素值，
+# 这给我们的数据集矩阵X，我们将使用K-Means
 
 X = A.reshape(-1, 3)
 K = 16
