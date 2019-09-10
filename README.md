@@ -13,4 +13,4 @@
 
 第六周：[方法偏差与方差（bias vs variance）](http://www.sniper97.cn/index.php/note/machine-learning-in-action/1390/)
 
-第七周：[持向量机（support vector machine） ](http://www.sniper97.cn/index.php/note/machine-learning-in-action/1600/)
+第七周：[支持向量机（support vector machine） ](http://www.sniper97.cn/index.php/note/machine-learning-in-action/1600/)
