@@ -78,6 +78,7 @@ def projectData(X, U, K):
 # 将第一个示例投射到第一个维度上，您应该会看到一个大约为1.481的值
 # 选取U的第一个向量，获得1*k的矩阵，达到降维
 Z = projectData(X_norm, U, 1)
+# [1.49631261]
 print(Z[0])
 
 
@@ -98,6 +99,7 @@ def recoverData(Z, U, K):
 # about [-1.047 -1.047].
 # 您将恢复第一个示例的近似值，您应该会看到一个大约为[-1.047 -1.047]的值
 X_rec = recoverData(Z, U, 1)
+# [-1.05805279 -1.05805279]
 print(X_rec[0])
 
 plt.figure(figsize=(7, 5))
