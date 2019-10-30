@@ -61,3 +61,4 @@ z = projectData(X_norm, U, K=36)
 X_rec = recoverData(z, U, K=36)
 
 displayData(X_rec, 10, 10)
+
